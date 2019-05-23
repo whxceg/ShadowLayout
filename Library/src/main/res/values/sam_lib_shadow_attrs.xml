@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ShadowLayout">
+
+        <attr name="android:inAnimation"/>
+        <attr name="android:outAnimation"/>
+        <attr name="android:duration"/>
+
+        <attr name="slShadowColor" format="reference|color"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="ShadowView">
+
+        <attr name="android:inAnimation"/>
+        <attr name="android:outAnimation"/>
+        <attr name="android:duration"/>
+
+        <attr name="svShadowColor" format="reference|color"/>
+
+    </declare-styleable>
+
+</resources>
